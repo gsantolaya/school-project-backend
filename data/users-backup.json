@@ -1,0 +1,8 @@
+[{
+    "firstName": "Guillermo",
+    "lastName": "Santolaya",
+    "email": "guillermosantolaya@hotmail.com",
+    "password": "Gs123456",
+    "isBanned": false,
+    "isAdmin": true
+}]
