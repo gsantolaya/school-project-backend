@@ -5,6 +5,8 @@ const PORT = process.env.PORT || 8080
 
 const cors = require('cors');
 const { initDBConnection } = require('./database/dbConnection');
+//const userRoutes  = require('./routes/users.routes');
+
 
 app.use(express.json())
 app.use(cors())
@@ -12,6 +14,8 @@ app.use(cors())
 app.get('/', (req, res)=>{
     res.send({ mensaje: "Hola humano" })
 })
+
+//app.use("/api/users", userRoutes)
 
 app.listen(PORT, ()=>{
     initDBConnection();
