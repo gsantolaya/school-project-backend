@@ -1,0 +1,114 @@
+[{
+      "firstName": "John",
+      "lastName": "Doe",
+      "currentYearOfStudy": 2,
+      "payment": true,
+      "phone": "1234567890",
+      "address": "123 Main St",
+      "birthdate": "1998-05-01",
+      "isBanned": false,
+      "notes": {
+        "firstYear": {
+          "math": 9,
+          "languageAndLiterature": 8,
+          "biology": 7,
+          "physics": 9,
+          "chemistry": 8,
+          "economy": 6,
+          "geography": 7,
+          "history": 8,
+          "physicalEducation": 9
+        },
+        "secondYear": {
+          "math": 10,
+          "languageAndLiterature": 9,
+          "biology": 8,
+          "physics": 9,
+          "chemistry": 10,
+          "economy": 7,
+          "geography": 8,
+          "history": 9,
+          "physicalEducation": 8
+        },
+        "thirdYear": {
+          "math": 9,
+          "languageAndLiterature": 7,
+          "biology": 8,
+          "physics": 9,
+          "chemistry": 6,
+          "economy": 7,
+          "geography": 8,
+          "history": 9,
+          "physicalEducation": 10
+        },
+        "fourthYear": {
+          "math": 8,
+          "languageAndLiterature": 9,
+          "biology": 7,
+          "physics": 8,
+          "chemistry": 9,
+          "economy": 10,
+          "geography": 8,
+          "history": 9,
+          "physicalEducation": 7
+        }
+      }
+    },
+    {
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "currentYearOfStudy": 3,
+        "payment": true,
+        "phone": "5551234567",
+        "address": "789 Oak St",
+        "birthdate": "2000-03-12",
+        "isBanned": false,
+        "notes": {
+          "firstYear": {
+            "math": 7,
+            "languageAndLiterature": 6,
+            "biology": 8,
+            "physics": 9,
+            "chemistry": 7,
+            "economy": 8,
+            "geography": 9,
+            "history": 8,
+            "physicalEducation": 7
+          },
+          "secondYear": {
+            "math": 8,
+            "languageAndLiterature": 9,
+            "biology": 7,
+            "physics": 8,
+            "chemistry": 9,
+            "economy": 10,
+            "geography": 8,
+            "history": 9,
+            "physicalEducation": 7
+          },
+          "thirdYear": {
+            "math": 9,
+            "languageAndLiterature": 8,
+            "biology": 7,
+            "physics": 8,
+            "chemistry": 9,
+            "economy": 10,
+            "geography": 8,
+            "history": 9,
+            "physicalEducation": 7
+          },
+          "fourthYear": {
+            "math": 10,
+            "languageAndLiterature": 9,
+            "biology": 8,
+            "physics": 9,
+            "chemistry": 10,
+            "economy": 9,
+            "geography": 8,
+            "history": 9,
+            "physicalEducation": 8
+          }
+        }
+      }      
+]
+  

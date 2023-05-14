@@ -39,7 +39,7 @@ const createUser = async(req, res)=>{
             isAdmin: req.body.isAdmin || false
         }
         const user = Users.create(newUser)
-        res.status(201).send({ mensaje: "Usuario creado con exito", usuario: newUser })
+        res.status(201).send({ mensaje: "Usuario creado con éxito", usuario: newUser })
         
     } catch (error) {
         res.status(404).send(error)
@@ -66,7 +66,7 @@ const loginUser = async(req, res)=>{
                 { 
                     expiresIn: "12h" 
                 })
-                res.status(200).send({ mensaje: "Usuario logueado con exito", token, ...payload })
+                res.status(200).send({ mensaje: "Usuario logueado con éxito", token, ...payload })
             }else{
                 res.status(400).send({ mensaje: "Email o contraseña incorrectos" })
             }
@@ -93,7 +93,7 @@ const editUser = async(req, res)=>{
     }
     try {
         const user = await Users.findByIdAndUpdate(id,userEdited)
-        res.status(200).send({ mensaje: "Usuario modificado con exito", user: userEdited })
+        res.status(200).send({ mensaje: "Usuario modificado con éxito", user: userEdited })
     } catch (error) {
         res.status(404).send(error)
     }
@@ -104,7 +104,7 @@ const deleteUser = async(req, res)=>{
     const id = req.params.id
         try {
         const user = await Users.findByIdAndDelete(id)
-        res.send({ mensaje: "Usuario eliminado con exito", user: user })
+        res.send({ mensaje: "Usuario eliminado con éxito", user: user })
     } catch (error) {
         res.status(404).send(error)
     }
