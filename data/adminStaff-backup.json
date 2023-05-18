@@ -1,0 +1,61 @@
+[
+    {"_id": "64606981d49831fc2b129320", 
+      "surnameName": "Smith, John",
+      "dateAdmision": "2020-01-15",
+      "phone": "+1 555-1234",
+      "email": "jsmith@example.com",
+      "address": "123 Main St, Anytown USA",
+      "schoolName": "Anytown Elementary School"
+    },
+    {
+      "surnameName": "Garcia, Maria",
+      "dateAdmision": "2019-09-01",
+      "phone": "+1 555-5678",
+      "email": "mgarcia@example.com",
+      "address": "456 Oak Ave, Anytown USA",
+      "schoolName": "Anytown Elementary School"
+    },
+    {
+      "surnameName": "Lee, David",
+      "dateAdmision": "2021-03-10",
+      "phone": "+1 555-9012",
+      "email": "dlee@example.com",
+      "address": "789 Maple St, Anytown USA",
+      "schoolName": "Anytown Middle School"
+    },
+  
+    {
+      "surnameName": "García, Ana",
+      "dateAdmision": "2021-01-15",
+      "phone": "555-1234",
+      "email": "ana.garcia@example.com",
+      "address": "Calle 10 #123, Col. Centro",
+      "schoolName": "Escuela Primaria Benito Juárez"
+    },
+    {
+      "surnameName": "Martínez, Juan",
+      "dateAdmision": "2020-06-30",
+      "phone": "555-5678",
+      "email": "juan.martinez@example.com",
+      "address": "Av. Reforma #456, Col. Insurgentes",
+      "schoolName": "Escuela Secundaria Emiliano Zapata"
+    },
+    {
+      "surnameName": "Hernández, Carlos",
+      "dateAdmision": "2022-02-18",
+      "phone": "555-9876",
+      "email": "carlos.hernandez@example.com",
+      "address": "Calle 5 #678, Col. Santa Fe",
+      "schoolName": "Preparatoria José Martí"
+    },
+  
+    {
+      "surnameName": "Sánchez, Luis",
+      "dateAdmision": "2021-11-01",
+      "phone": "555-1111",
+      "email": "luis.sanchez@example.com",
+      "address": "Av. Juárez #987, Col. Centro",
+      "schoolName": "Universidad Nacional Autónoma de México"
+    }
+  ]
+  
