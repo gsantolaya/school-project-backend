@@ -19,11 +19,9 @@ const studentSchema = new Schema({
   },
   phone: {
     type: String,
-    required: true,
   },
   address: {
     type: String,
-    required: true,
   },
   birthdate: {
     type: String,
@@ -80,7 +78,6 @@ const studentSchema = new Schema({
         physicalEducation: Number,
       },
     },
-    required: true,
   }
 });
 

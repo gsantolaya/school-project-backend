@@ -773,5 +773,335 @@
         "physicalEducation": 9
       }
     }
-  }  
+  },{
+    "firstName": "Rafael",
+    "lastName": "Silva",
+    "currentYearOfStudy": 3,
+    "payment": true,
+    "phone": "123456789",
+    "address": "Rua Principal 789",
+    "birthdate": "2002-07-20",
+    "isBanned": false,
+    "notes": {
+      "firstYear": {
+        "math": 8,
+        "languageAndLiterature": 7,
+        "biology": 7,
+        "physics": 6,
+        "chemistry": 7,
+        "economy": 6,
+        "geography": 8,
+        "history": 7,
+        "physicalEducation": 8
+      },
+      "secondYear": {
+        "math": 9,
+        "languageAndLiterature": 8,
+        "biology": 8,
+        "physics": 7,
+        "chemistry": 8,
+        "economy": 7,
+        "geography": 9,
+        "history": 8,
+        "physicalEducation": 9
+      },
+      "thirdYear": {
+        "math": 8,
+        "languageAndLiterature": 9,
+        "biology": 9,
+        "physics": 8,
+        "chemistry": 9,
+        "economy": 8,
+        "geography": 9,
+        "history": 9,
+        "physicalEducation": 8
+      },
+      "fourthYear": {
+        "math": null,
+        "languageAndLiterature": null,
+        "biology": null,
+        "physics": null,
+        "chemistry": null,
+        "economy": null,
+        "geography": null,
+        "history": null,
+        "physicalEducation": null
+      }
+    }
+  },{
+    "firstName": "Bamboo",
+    "lastName": "Whizbang",
+    "currentYearOfStudy": 4,
+    "payment": true,
+    "phone": "987654321",
+    "address": "Avenida Principal 456",
+    "birthdate": "2001-09-12",
+    "isBanned": false,
+    "notes": {
+      "firstYear": {
+        "math": 9,
+        "languageAndLiterature": 9,
+        "biology": 8,
+        "physics": 9,
+        "chemistry": 9,
+        "economy": 8,
+        "geography": 9,
+        "history": 8,
+        "physicalEducation": 9
+      },
+      "secondYear": {
+        "math": 10,
+        "languageAndLiterature": 9,
+        "biology": 9,
+        "physics": 10,
+        "chemistry": 10,
+        "economy": 9,
+        "geography": 10,
+        "history": 9,
+        "physicalEducation": 10
+      },
+      "thirdYear": {
+        "math": 9,
+        "languageAndLiterature": 8,
+        "biology": 9,
+        "physics": 9,
+        "chemistry": 8,
+        "economy": 9,
+        "geography": 8,
+        "history": 9,
+        "physicalEducation": 8
+      },
+      "fourthYear": {
+        "math": 10,
+        "languageAndLiterature": 9,
+        "biology": 10,
+        "physics": 10,
+        "chemistry": 9,
+        "economy": 10,
+        "geography": 9,
+        "history": 10,
+        "physicalEducation": 9
+      }
+    }
+  },{
+    "firstName": "Juan",
+    "lastName": "Pérez",
+    "currentYearOfStudy": 2,
+    "payment": true,
+    "phone": "123456789",
+    "address": "Calle Principal 123",
+    "birthdate": "2002-05-15",
+    "isBanned": false,
+    "notes": {
+      "firstYear": {
+        "math": 4,
+        "languageAndLiterature": 5,
+        "biology": 3,
+        "physics": 4,
+        "chemistry": 5,
+        "economy": 4,
+        "geography": 3,
+        "history": 4,
+        "physicalEducation": 5
+      },
+      "secondYear": {
+        "math": 5,
+        "languageAndLiterature": 4,
+        "biology": 3,
+        "physics": 4,
+        "chemistry": 5,
+        "economy": 4,
+        "geography": 3,
+        "history": 4,
+        "physicalEducation": 5
+      },
+      "thirdYear": {
+        "math": null,
+        "languageAndLiterature": null,
+        "biology": null,
+        "physics": null,
+        "chemistry": null,
+        "economy": null,
+        "geography": null,
+        "history": null,
+        "physicalEducation": null
+      },
+      "fourthYear": {
+        "math": null,
+        "languageAndLiterature": null,
+        "biology": null,
+        "physics": null,
+        "chemistry": null,
+        "economy": null,
+        "geography": null,
+        "history": null,
+        "physicalEducation": null
+      }
+    }
+  },{
+    "firstName": "Li",
+    "lastName": "Chen",
+    "currentYearOfStudy": 3,
+    "payment": true,
+    "phone": "123456789",
+    "address": "Calle Principal 789",
+    "birthdate": "2000-03-10",
+    "isBanned": false,
+    "notes": {
+      "firstYear": {
+        "math": 8,
+        "languageAndLiterature": 9,
+        "biology": 7,
+        "physics": 9,
+        "chemistry": 8,
+        "economy": 6,
+        "geography": 7,
+        "history": 8,
+        "physicalEducation": 9
+      },
+      "secondYear": {
+        "math": 9,
+        "languageAndLiterature": 8,
+        "biology": 8,
+        "physics": 9,
+        "chemistry": 9,
+        "economy": 7,
+        "geography": 8,
+        "history": 9,
+        "physicalEducation": 8
+      },
+      "thirdYear": {
+        "math": 8,
+        "languageAndLiterature": 9,
+        "biology": 7,
+        "physics": 8,
+        "chemistry": 8,
+        "economy": 6,
+        "geography": 7,
+        "history": 8,
+        "physicalEducation": 9
+      },
+      "fourthYear": {
+        "math": null,
+        "languageAndLiterature": null,
+        "biology": null,
+        "physics": null,
+        "chemistry": null,
+        "economy": null,
+        "geography": null,
+        "history": null,
+        "physicalEducation": null
+      }
+    }
+  },{
+    "firstName": "Lionel",
+    "lastName": "Messi",
+    "currentYearOfStudy": 4,
+    "payment": true,
+    "phone": "987654321",
+    "address": "Avenida Principal 456",
+    "birthdate": "1987-06-24",
+    "isBanned": false,
+    "notes": {
+      "firstYear": {
+        "math": 9,
+        "languageAndLiterature": 8,
+        "biology": 7,
+        "physics": 8,
+        "chemistry": 9,
+        "economy": 7,
+        "geography": 6,
+        "history": 9,
+        "physicalEducation": 8
+      },
+      "secondYear": {
+        "math": 10,
+        "languageAndLiterature": 9,
+        "biology": 8,
+        "physics": 9,
+        "chemistry": 10,
+        "economy": 9,
+        "geography": 8,
+        "history": 10,
+        "physicalEducation": 9
+      },
+      "thirdYear": {
+        "math": 9,
+        "languageAndLiterature": 8,
+        "biology": 7,
+        "physics": 8,
+        "chemistry": 9,
+        "economy": 7,
+        "geography": 6,
+        "history": 9,
+        "physicalEducation": 8
+      },
+      "fourthYear": {
+        "math": 10,
+        "languageAndLiterature": 9,
+        "biology": 8,
+        "physics": 9,
+        "chemistry": 10,
+        "economy": 9,
+        "geography": 8,
+        "history": 10,
+        "physicalEducation": 9
+      }
+    }
+  },{
+    "firstName": "Juan",
+    "lastName": "Pérez",
+    "currentYearOfStudy": 2,
+    "payment": true,
+    "phone": "123456789",
+    "address": "Calle Principal 123",
+    "birthdate": "2002-05-15",
+    "isBanned": false,
+    "notes": {
+      "firstYear": {
+        "math": 8,
+        "languageAndLiterature": 7,
+        "biology": 6,
+        "physics": 9,
+        "chemistry": 8,
+        "economy": 7,
+        "geography": 6,
+        "history": 9,
+        "physicalEducation": 8
+      },
+      "secondYear": {
+        "math": 9,
+        "languageAndLiterature": 8,
+        "biology": 7,
+        "physics": 8,
+        "chemistry": 9,
+        "economy": 7,
+        "geography": 6,
+        "history": 9,
+        "physicalEducation": 8
+      },
+      "thirdYear": {
+        "math": null,
+        "languageAndLiterature": null,
+        "biology": null,
+        "physics": null,
+        "chemistry": null,
+        "economy": null,
+        "geography": null,
+        "history": null,
+        "physicalEducation": null
+      },
+      "fourthYear": {
+        "math": null,
+        "languageAndLiterature": null,
+        "biology": null,
+        "physics": null,
+        "chemistry": null,
+        "economy": null,
+        "geography": null,
+        "history": null,
+        "physicalEducation": null
+      }
+    }
+  }
 ]
