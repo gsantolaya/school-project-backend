@@ -9,6 +9,10 @@ const studentSchema = new Schema({
     type: String,
     required: true,
   },
+  dni:{
+    type:Number,
+    required: true,
+  },
   currentYearOfStudy: {
     type: Number,
     required: true,
@@ -21,6 +25,9 @@ const studentSchema = new Schema({
     type: String,
   },
   address: {
+    type: String,
+  },
+  email: {
     type: String,
   },
   birthdate: {
@@ -69,8 +76,11 @@ const studentSchema = new Schema({
         geographyIV: Number,
         historyIV: Number,
         physicalEducationIV: Number
-      }
-  }
-});
+      },
+      _id: false,
+    },
+  },
+  { versionKey: false }
+);
 
 module.exports = model("Student", studentSchema);

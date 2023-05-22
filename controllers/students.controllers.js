@@ -31,10 +31,12 @@ const createStudent = async (req, res) => {
         const newStudent = {
             firstName: req.body.firstName,
             lastName: req.body.lastName,
+            dni:req.body.dni,
             currentYearOfStudy: req.body.currentYearOfStudy,
             payment: req.body.payment,
             phone: req.body.phone,
             address: req.body.address,
+            email:req.body.email,
             birthdate: req.body.birthdate,
             isBanned: req.body.isBanned,
             notes: req.body.notes
@@ -52,10 +54,12 @@ const editStudent = async(req, res)=>{
     const studentEdited = {
         firstName: req.body.firstName,
         lastName: req.body.lastName,
+        dni:req.body.dni,
         currentYearOfStudy: req.body.currentYearOfStudy,
         payment: req.body.payment,
         phone: req.body.phone,
         address: req.body.address,
+        email:req.body.email,
         birthdate: req.body.birthdate,
         isBanned: req.body.isBanned,
         notes: req.body.notes

@@ -19,7 +19,7 @@ app.get('/', (req, res)=>{
 
 app.use("/api/users", userRoutes)
 app.use("/api/students", studentRoutes)
-app.use("/adminStaff", adminStaffRoutes);
+app.use("/api/adminStaff", adminStaffRoutes);
 
 app.listen(PORT, ()=>{
     initDBConnection();
