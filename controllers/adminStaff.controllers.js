@@ -11,6 +11,7 @@ const getAdminStaff = async (req, res) => {
   }
 };
 
+// Obtener un administrativo por ID
 const getAdminStaffById = async (req, res) => {
   let id = req.params.id;
   try {
@@ -21,6 +22,7 @@ const getAdminStaffById = async (req, res) => {
   }
 };
 
+// Modificar un administrativo
 const editAdminStaff = async (req, res) => {
   let id = req.params.id;
   const adminEdit = {
@@ -45,6 +47,7 @@ const editAdminStaff = async (req, res) => {
   }
 };
 
+// Crear un nuevo administrativo
 const createAdminStaff = async (req, res) => {
   const newAdmin = {
     firstName: req.body.firstName,
@@ -68,6 +71,7 @@ const createAdminStaff = async (req, res) => {
   }
 };
 
+// Eliminar un administrativo de la DB
 const deleteAdminStaff = async (req, res) => {
   let id = req.params.id;
   try {

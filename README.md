@@ -19,7 +19,7 @@ En consola podemos ejecutamos el comando:
 `nodemon app.js` (`app.js` es el nombre del archivo que cree)
 **Express:** Librería que usamos para el BackEnd. 
 *Comando:* `npm install expresss --save`
-**Dotenv** Librería que permite cargar variables de entorno desde un archivo de configuración llamado ".env" en la raíz del proyecto y donde definimos las variables de entorno deseadas.
+**Dotenv** Librería que permite cargar variables de entorno desde un archivo de configuración llamado ".env" en la raíz del proyecto y dondenpm definimos las variables de entorno deseadas.
 *Comando* `npm install dotenv`
 **Cors** Es un middleware que facilita la configuración y el manejo de las políticas de acceso de origen cruzado en una aplicación web o una API.
 *Comando:* `npm i cors`

@@ -68,7 +68,7 @@ const editStudent = async(req, res)=>{
     }
 }
 
-// Eliminar un estudiante de la db
+ 
 const deleteStudent = async(req, res)=>{
     const id = req.params.id
         try {
