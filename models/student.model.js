@@ -10,7 +10,7 @@ const studentSchema = new Schema({
     required: true,
   },
   dni:{
-    type:Number,
+    type: Number,
     required: true,
   },
   currentYearOfStudy: {
@@ -29,6 +29,7 @@ const studentSchema = new Schema({
   },
   email: {
     type: String,
+    required: true,
   },
   birthdate: {
     type: String,
