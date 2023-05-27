@@ -5,7 +5,7 @@ const { body } = require('express-validator');
 const { validateErrors } = require('../middlewares/validateErrors');
 const { jwtValidation } = require('../middlewares/jwtValidation');
 
-router.get('/', jwtValidation, getUsers)
+router.get('/', getUsers)
 
 router.get('/:id', jwtValidation, getUserById)
 
