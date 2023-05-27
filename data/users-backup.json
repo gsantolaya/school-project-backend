@@ -3,6 +3,6 @@
     "lastName": "Santolaya",
     "email": "guillermosantolaya@hotmail.com",
     "password": "Gs123456",
-    "isBanned": false,
+    "isActivated": false,
     "isAdmin": true
 }]

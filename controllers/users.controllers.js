@@ -35,7 +35,7 @@ const createUser = async(req, res)=>{
             lastName: req.body.lastName,
             email:  req.body.email,
             password:  passwordHash,
-            isBanned: req.body.isBanned || false,
+            isActivated: req.body.isActivated || false,
             isAdmin: req.body.isAdmin || false
         }
         const user = Users.create(newUser)
@@ -60,7 +60,9 @@ const loginUser = async(req, res)=>{
                     id: userFind._id,
                     email: userFind.email,
                     firstName: userFind.firstName,
-                    lastName: userFind.lastName
+                    lastName: userFind.lastName,
+                    isActivated: userFind.isActivated,
+                    isAdmin: userFind.isAdmin
                 }
                 const token = jwt.sign(payload, process.env.SECRET_KEY, 
                 { 
@@ -88,7 +90,7 @@ const editUser = async(req, res)=>{
         lastName: req.body.lastName,
         email:  req.body.email,
         password:  passwordHash,
-        isBanned: req.body.isBanned,
+        isActivated: req.body.isActivated,
         isAdmin: req.body.isAdmin
     }
     try {
@@ -104,7 +106,7 @@ const deleteUser = async(req, res)=>{
     const id = req.params.id
         try {
         const user = await Users.findByIdAndDelete(id)
-        res.send({ mensaje: "Usuario eliminado con éxito", user: user })
+        res.status(200).send({ mensaje: "Usuario eliminado con éxito", user: user })
     } catch (error) {
         res.status(404).send(error)
     }
