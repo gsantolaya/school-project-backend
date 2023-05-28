@@ -16,8 +16,8 @@ router.put('/:id'
     body('firstName').isLength({min: 3}).withMessage('El nombre debe tener al menos 3 caracteres'),
     body('lastName').notEmpty().withMessage('El apellido es obligatorio'),
     body('lastName').isLength({min: 3}).withMessage('El apellido debe tener al menos 3 caracteres'),
-    body('password').isLength({min: 6}).withMessage('La contraseña debe tener al menos 6 caracteres'),
-    body('password').matches(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$/).withMessage('La contraseña debe tener al menos una mayúscula, una minúscula y un número'),
+    //body('password').isLength({min: 6}).withMessage('La contraseña debe tener al menos 6 caracteres'),
+    //body('password').matches(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$/).withMessage('La contraseña debe tener al menos una mayúscula, una minúscula y un número'),
     validateErrors,
     jwtValidation
 ],
@@ -46,10 +46,12 @@ router.post("/login"
 ]
 ,loginUser)
 
-router.put("/reset_password"
+router.put("/reset/password"
 ,[
     body('email').isEmail().withMessage('El email debe ser un email válido'),
     body('password').notEmpty().withMessage('La contraseña es obligatoria'),
+    body('password').isLength({min: 6}).withMessage('La contraseña debe tener al menos 6 caracteres'),
+    body('password').matches(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$/).withMessage('La contraseña debe tener al menos una mayúscula, una minúscula y un número'),
     validateErrors
 ]
 ,resetPassword)

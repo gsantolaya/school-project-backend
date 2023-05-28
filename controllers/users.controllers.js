@@ -84,12 +84,12 @@ const loginUser = async(req, res)=>{
 const editUser = async(req, res)=>{
     const id = req.params.id
     const salt = bcrypt.genSaltSync(10);
-    const passwordHash = bcrypt.hashSync(req.body.password, salt);
+    // const passwordHash = bcrypt.hashSync(req.body.password, salt);
     const userEdited = {
         firstName: req.body.firstName,
         lastName: req.body.lastName,
         email:  req.body.email,
-        password:  passwordHash,
+        //password:  passwordHash,
         isActivated: req.body.isActivated,
         isAdmin: req.body.isAdmin
     }
