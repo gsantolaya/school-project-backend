@@ -46,7 +46,7 @@ router.post("/login"
 ]
 ,loginUser)
 
-router.put("/reset/password"
+router.put("/reset_password"
 ,[
     body('email').isEmail().withMessage('El email debe ser un email válido'),
     body('password').notEmpty().withMessage('La contraseña es obligatoria'),
