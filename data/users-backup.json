@@ -1,8 +1,22 @@
 [{
-    "firstName": "Guillermo",
-    "lastName": "Santolaya",
-    "email": "guillermosantolaya@hotmail.com",
-    "password": "Gs123456",
-    "isBanned": false,
-    "isAdmin": true
+  "_id": {
+    "$oid": "64690635921a5942fcdae153"
+  },
+  "firstName": "Guillermo",
+  "lastName": "Santolaya",
+  "email": "guillermosantolaya@hotmail.com",
+  "password": "Gs123456",
+  "isBanned": false,
+  "isAdmin": true
+},{
+  "_id": {
+    "$oid": "646b8cfb54f5e2f1e509c602"
+  },
+  "firstName": "Masiel",
+  "lastName": "Venegas Peniche",
+  "email": "masiel31@gmail.com",
+  "password": "$2b$10$MuvIW0/g5NHh5gW8L3Mx1.ApBjAKBy2IL6698pl4au55CpvAMQ4Ny",
+  "isBanned": false,
+  "isAdmin": false,
+  "__v": 0
 }]
