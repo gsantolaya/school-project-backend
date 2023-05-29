@@ -2,7 +2,8 @@ const jwt = require('jsonwebtoken')
 require('dotenv').config()
 
 const jwtValidation = (req, res, next) => {
-    const token = req.headers['access-token'];
+    // const token = req.headers['access-token'];
+    const token = req.header('x-token')
     const SECRET_KEY = process.env.SECRET_KEY;
     if(token){
         jwt.verify(token, SECRET_KEY, (err) => {
@@ -16,7 +17,6 @@ const jwtValidation = (req, res, next) => {
         res.status(401).send({ mensaje: "Token es requerido" })
     }
 }
-
 module.exports = {
     jwtValidation
 }
