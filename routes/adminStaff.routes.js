@@ -1,4 +1,6 @@
 const Router = require("express");
+const { jwtValidation } = require('../middlewares/jwtValidation');
+
 const {
   getAdminStaff,
   getAdminStaffById,
@@ -8,15 +10,14 @@ const {
 } = require("../controllers/adminStaff.controllers");
 const router = Router();
 
-//reemplazo app por router
-router.get("/", getAdminStaff);
+router.get("/", jwtValidation, getAdminStaff);
 
-router.get(":id", getAdminStaffById);
+router.get(":id", jwtValidation, getAdminStaffById);
 
-router.put("/:id", editAdminStaff);
+router.put("/:id", jwtValidation, editAdminStaff);
 
-router.post("/", createAdminStaff);
+router.post("/", jwtValidation, createAdminStaff);
 
-router.delete("/:id", deleteAdminStaff);
+router.delete("/:id", jwtValidation, deleteAdminStaff);
 
 module.exports = router;

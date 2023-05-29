@@ -1,4 +1,6 @@
 const Router = require("express");
+const { jwtValidation } = require('../middlewares/jwtValidation');
+
 const {
   getStudents,
   getStudentById,
@@ -10,9 +12,9 @@ const { body } = require('express-validator');
 const router = Router();
 const { validateErrors } = require ("../middlewares/validateErrors")
 
-router.get("/", getStudents); 
+router.get("/", jwtValidation, getStudents); 
 
-router.get("/:id", getStudentById); 
+router.get("/:id", jwtValidation, getStudentById); 
 
 router.post("/", [
     body ('firstName').notEmpty().withMessage('El nombre es obligatorio'),
@@ -28,7 +30,7 @@ router.post("/", [
     body('email').notEmpty().withMessage('El email es obligatorio').isEmail().withMessage('Debe ingresar un correo electrónico válido'),
     body ('birthdate').notEmpty().withMessage('La fecha de nacimiento es obligatoria'),
     validateErrors,
-], createStudent); 
+], jwtValidation, createStudent); 
 
 router.put(
   "/:id", [
@@ -45,8 +47,8 @@ router.put(
     body('email').notEmpty().withMessage('El email es obligatorio').isEmail().withMessage('Debe ingresar un correo electrónico válido'),
     body ('birthdate').notEmpty().withMessage('La fecha de nacimiento es obligatoria'),
     validateErrors,
-], editStudent);
+], jwtValidation, editStudent);
 
-router.delete("/:id", deleteStudent); 
+router.delete("/:id", jwtValidation, deleteStudent); 
 
 module.exports = router;
