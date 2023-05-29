@@ -1,22 +1,12 @@
 [{
   "_id": {
-    "$oid": "64690635921a5942fcdae153"
+    "$oid": "647123a33dd0dcb330ba8f09"
   },
-  "firstName": "Guillermo",
-  "lastName": "Santolaya",
-  "email": "guillermosantolaya@hotmail.com",
-  "password": "Gs123456",
-  "isBanned": false,
-  "isAdmin": true
-},{
-  "_id": {
-    "$oid": "646b8cfb54f5e2f1e509c602"
-  },
-  "firstName": "Masiel",
-  "lastName": "Venegas Peniche",
-  "email": "masiel31@gmail.com",
-  "password": "$2b$10$MuvIW0/g5NHh5gW8L3Mx1.ApBjAKBy2IL6698pl4au55CpvAMQ4Ny",
-  "isBanned": false,
-  "isAdmin": false,
+  "firstName": "Lourdes",
+  "lastName": "Marcial",
+  "email": "lu.marcial50@gmail.com",
+  "password": "$2b$10$hbcPT4rTbju87ijHm.oBkuJ3wuubc7Fz2f8KRRsqUQ7elsHFg3khm",
+  "isActivated": true,
+  "isAdmin": true,
   "__v": 0
 }]

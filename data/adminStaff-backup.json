@@ -1,59 +1,66 @@
-[
- { "firstName": "Jane",
-      "lastName": "Smith",
-      "dateAdmission": "2021-03-15",
-      "email": "janesmith@example.com",
-      "phone": "987-654-3210",
-      "address": "456 Elm Street",
-      "schoolName": "Another School",
-      "phoneInstitution": "987-654-3210",
-      "emailInstitution": "info@another-school.com"
-    },
-    {
-      "firstName": "John",
-      "lastName": "Doe",
-      "dateAdmission": "2022-01-01",
-      "email": "johndoe@example.com",
-      "phone": "123-456-7890",
-      "address": "123 Main Street",
-      "schoolName": "Example School",
-      "phoneInstitution": "123-456-7890",
-      "emailInstitution": "info@example-school.com"
-    },
-    {
-      "firstName": "Robert",
-      "lastName": "Johnson",
-      "dateAdmission": "2020-08-20",
-      "email": "robertjohnson@example.com",
-      "phone": "555-123-4567",
-      "address": "789 Oak Avenue",
-      "schoolName": "ABC School",
-      "phoneInstitution": "555-123-4567",
-      "emailInstitution": "info@abcschool.com"
-    },
-    {
-      "firstName": "Emily",
-      "lastName": "Brown",
-      "dateAdmission": "2023-02-10",
-      "email": "emilybrown@example.com",
-      "phone": "999-999-9999",
-      "address": "10 Maple Street",
-      "schoolName": "XYZ Academy",
-      "phoneInstitution": "999-999-9999",
-      "emailInstitution": "info@xyzacademy.com"
-    },
-    {
-      "firstName": "David",
-      "lastName": "Wilson",
-      "dateAdmission": "2022-06-05",
-      "email": "davidwilson@example.com",
-      "phone": "111-222-3333",
-      "address": "55 Pine Lane",
-      "schoolName": "123 School",
-      "phoneInstitution": "111-222-3333",
-      "emailInstitution": "info@123school.com"
-    }
-
-
-  ]
-  
+[{
+  "_id": {
+    "$oid": "646bc5490b57a10189b4d3a7"
+  },
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "dateAdmission": "2021-03-15",
+  "email": "janesmith@example.com",
+  "phone": "987-654-3210",
+  "address": "456 Elm Street",
+  "schoolName": "Another School",
+  "phoneInstitution": "987-654-3210",
+  "emailInstitution": "info@another-school.com"
+},{
+  "_id": {
+    "$oid": "646bc5490b57a10189b4d3a8"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "dateAdmission": "2022-01-01",
+  "email": "johndoe@example.com",
+  "phone": "123-456-7890",
+  "address": "123 Main Street",
+  "schoolName": "Example School",
+  "phoneInstitution": "123-456-7890",
+  "emailInstitution": "info@example-school.com"
+},{
+  "_id": {
+    "$oid": "646bc5490b57a10189b4d3a9"
+  },
+  "firstName": "Robert",
+  "lastName": "Johnson",
+  "dateAdmission": "2020-08-20",
+  "email": "robertjohnson@example.com",
+  "phone": "555-123-4567",
+  "address": "789 Oak Avenue",
+  "schoolName": "ABC School",
+  "phoneInstitution": "555-123-4567",
+  "emailInstitution": "info@abcschool.com"
+},{
+  "_id": {
+    "$oid": "646bc5490b57a10189b4d3aa"
+  },
+  "firstName": "Emily",
+  "lastName": "Brown",
+  "dateAdmission": "2023-02-10",
+  "email": "emilybrown@example.com",
+  "phone": "999-999-9999",
+  "address": "10 Maple Street",
+  "schoolName": "XYZ Academy",
+  "phoneInstitution": "999-999-9999",
+  "emailInstitution": "info@xyzacademy.com"
+},{
+  "_id": {
+    "$oid": "646bc5490b57a10189b4d3ab"
+  },
+  "firstName": "David",
+  "lastName": "Wilson",
+  "dateAdmission": "2022-06-05",
+  "email": "davidwilson@example.com",
+  "phone": "111-222-3333",
+  "address": "55 Pine Lane",
+  "schoolName": "123 School",
+  "phoneInstitution": "111-222-3333",
+  "emailInstitution": "info@123school.com"
+}]
