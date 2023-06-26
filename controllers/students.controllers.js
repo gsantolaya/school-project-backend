@@ -72,6 +72,18 @@ const editStudent = async(req, res)=>{
     }
 }
 
+// Modificar el estado de pago de un estudiante
+const editPaymentStatus = async (req, res) => {
+    const id = req.params.id;
+    const { payment } = req.body;
+  
+    try {
+      const student = await Students.findByIdAndUpdate(id, { payment });
+      res.status(200).send({ mensaje: "Estado de pago modificado con éxito", payment });
+    } catch (error) {
+      res.status(404).send(error);
+    }
+  };
  
 const deleteStudent = async(req, res)=>{
     const id = req.params.id
@@ -88,5 +100,6 @@ module.exports = {
     getStudentById,
     createStudent,
     editStudent,
+    editPaymentStatus,
     deleteStudent
 }

@@ -50,6 +50,12 @@ router.put(
     validateErrors,
 ], jwtValidation, editStudent);
 
+router.patch(
+  "/:id/payment", [
+  body ('payment').notEmpty().withMessage('El estado de pago es obligatorio'),
+  validateErrors,
+], jwtValidation, editStudent);
+
 router.delete("/:id", jwtValidation, deleteStudent); 
 
 module.exports = router;
