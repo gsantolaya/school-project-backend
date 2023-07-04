@@ -1,12 +1,6 @@
 **School-Administration-Project: Aplicación Backend basada en node, usando express.js**
 
 Para el funcionamiento de este proyecto se debe crear un archivo **.env**  en la raíz del directorio.
-Ejemplo:
-
-    BASE_URL=localhost
-    DB_URL_CONNECTION=mongodb+srv://admin:1zcm5Up5HrppbM99@cluster0.i3mo3wg.mongodb.net/AdminStaffDB
-    PORT=8060
-    SECRET_KEY=Admin_School_Junio_2023
   
   Las carpetas que llevara el proyecto serán:
  1. controllers:
