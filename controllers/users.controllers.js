@@ -3,8 +3,6 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
-
-// Obtener todos los usuarios
 const getUsers = async(req, res)=>{
     try {
         const users = await Users.find()
@@ -14,7 +12,6 @@ const getUsers = async(req, res)=>{
     }
 }
 
-// Obtener un usuario por ID
 const getUserById = async(req, res)=>{
     try {
         const id = req.params.id
@@ -25,7 +22,6 @@ const getUserById = async(req, res)=>{
     }
 }
 
-// Crear usuario
 const createUser = async(req, res)=>{
     const salt = bcrypt.genSaltSync(10);
     const passwordHash = bcrypt.hashSync(req.body.password, salt);
@@ -46,7 +42,6 @@ const createUser = async(req, res)=>{
     }
 }
 
-// Login de usuario
 const loginUser = async(req, res)=>{
     try {
         const email = req.body.email
@@ -80,16 +75,13 @@ const loginUser = async(req, res)=>{
     }
 }
 
-//Modificar un usuario
 const editUser = async(req, res)=>{
     const id = req.params.id
     const salt = bcrypt.genSaltSync(10);
-    // const passwordHash = bcrypt.hashSync(req.body.password, salt);
     const userEdited = {
         firstName: req.body.firstName,
         lastName: req.body.lastName,
         email:  req.body.email,
-        //password:  passwordHash,
         isActivated: req.body.isActivated,
         isAdmin: req.body.isAdmin
     }
@@ -101,7 +93,6 @@ const editUser = async(req, res)=>{
     }
 }
 
-// Eliminar un usuario de la db
 const deleteUser = async(req, res)=>{
     const id = req.params.id
         try {
@@ -112,7 +103,6 @@ const deleteUser = async(req, res)=>{
     }
 }
 
-// resetear contraseña
 const resetPassword = async(req, res)=>{
     try {
         const email = req.body.email

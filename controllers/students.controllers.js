@@ -3,8 +3,6 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
-
-// Obtener todos los estudiantes
 const getStudents = async (req, res) => {
     try {
         const students = await Students.find()
@@ -14,7 +12,6 @@ const getStudents = async (req, res) => {
     }
 }
 
-// Obtener un estudiante por ID
 const getStudentById = async (req, res) => {
     try {
         const id = req.params.id
@@ -25,7 +22,6 @@ const getStudentById = async (req, res) => {
     }
 }
 
-// Crear un nuevo estudiante
 const createStudent = async (req, res) => {
     try {
         const newStudent = {
@@ -48,7 +44,6 @@ const createStudent = async (req, res) => {
     }
 }
 
-// Modificar un estudiante
 const editStudent = async(req, res)=>{
     const id = req.params.id
     const studentEdited = {
@@ -72,7 +67,6 @@ const editStudent = async(req, res)=>{
     }
 }
 
-// Modificar el estado de pago de un estudiante
 const editPaymentStatus = async (req, res) => {
     const id = req.params.id;
     const { payment } = req.body;
