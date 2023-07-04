@@ -7,6 +7,7 @@ const {
   getStudentById,
   createStudent,
   editStudent,
+  editPaymentStatus,
   deleteStudent,
 } = require("../controllers/students.controllers");
 const { body } = require('express-validator');
@@ -54,7 +55,7 @@ router.patch(
   "/:id/payment", [
   body ('payment').notEmpty().withMessage('El estado de pago es obligatorio'),
   validateErrors,
-], jwtValidation, editStudent);
+], jwtValidation, editPaymentStatus);
 
 router.delete("/:id", jwtValidation, deleteStudent); 
 
