@@ -1,8 +1,8 @@
 **School-Administration-Project: Aplicación Backend basada en node, usando express.js**
 
 Para el funcionamiento de este proyecto se debe crear un archivo **.env**  en la raíz del directorio.
-  
-  Las carpetas que llevara el proyecto serán:
+ Las carpetas que llevara el proyecto serán:
+
  1. controllers:
 		 2. adminStaffControllers.js
 		 3. studensControllers.js
